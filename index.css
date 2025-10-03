@@ -1,0 +1,111 @@
+body{
+    background: #d12871;
+background: radial-gradient(circle, rgba(209, 40, 113, 1) 0%, rgba(150, 2, 103, 1) 36%, rgba(41, 41, 41, 1) 100%);
+}
+
+.parent1{
+    display: flex;
+    margin: 32px;
+    padding: 5px;
+    height: 50px;
+    width: 1165px;
+    background: transparent;
+    box-shadow:4px 4px 10px rgb(43, 42, 41) ;
+    
+
+.im{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    
+
+    img{
+        width: 40px;
+        height: 50px;
+    }
+    .logo{
+        color: antiquewhite;
+        padding: 5px;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+    }
+}
+.menu{
+    color: antiquewhite;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center ;
+    .content{
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+}
+}
+
+.parent2{
+    padding: 20px;
+    height: 350px;
+    width: 60%;
+    justify-content: center;
+    margin-left: 260px;
+    align-items: center;
+    color: antiquewhite;
+    box-shadow:2px 2px 23px rgb(43, 42, 41) ;
+    
+
+
+    .para1{
+        text-align:center;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+
+    .para2{
+        text-align:center;
+        font-family:Arial, Helvetica, sans-serif; 
+    }
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        color: antiquewhite;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 24px;
+    }
+}
+
+.parent3{
+    margin: 35px;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin-left: 260px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .smal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow:4px 4px 10px rgb(43, 42, 41) ;
+        height: 40px;
+        width: 25%;
+        margin: 15px;
+        color: antiquewhite;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+    }
+
+    #infin{
+        font-size: x-large;
+    }
+
+}
